@@ -3,8 +3,19 @@ img {
     height: 200px;
     border: 1px solid black;
     margin: 20px;
+    float: left;
 }
 
 body {
-    background-color: slategrey;
+    background-color: lightslategray;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.gif-board {
+    width: 1000px;
+    margin: auto;
+    height: 800px;
 }
