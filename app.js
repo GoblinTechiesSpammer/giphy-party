@@ -20,3 +20,10 @@ searchForm.addEventListener("submit", async function(e){
 //     let res = await axios.get(`http://api.giphy.com/v1/gifs/random`, {params:{api_key: "qaNkPHyjSPSgvBdUWikTAT4doJs8L5Qa", tag: searchedGif}});
 //     return res;
 // }
+
+const deleteButton = document.querySelector("#delete");
+
+deleteButton.addEventListener("click", function(e){
+    e.preventDefault();
+    document.querySelector(".gif-board").innerHTML = "";
+});
